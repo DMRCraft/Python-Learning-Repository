@@ -9,3 +9,10 @@ elif age < 0:
 else:
     print("You are a minor")
 
+# NOTE: you can use the variable name to check a True/False statement
+
+# if age has a value, run the first block, else run the second block
+if age:
+    ...
+else:
+    ...
