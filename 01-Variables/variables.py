@@ -1,6 +1,8 @@
 # variables - container for a value, behaves as the value its given
 
-# NOTE: Python used snake_case, unlike JavaScript's camalCase!
+# NOTES:
+#   Python used snake_case, unlike JavaScript's camalCase!
+#   Python's booleans use True/False instead of lowercase true/false. Keep in mind!
 
 # String
 first_name = "Dylan"
