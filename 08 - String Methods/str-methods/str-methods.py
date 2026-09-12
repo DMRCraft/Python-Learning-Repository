@@ -14,11 +14,15 @@ length = len(name) # returns the length of the string, including spaces
 result = name.find(" ") # finds the FIRST occurance of the given value and returns the INDEX. If no value found, returns -1 instead
 result = name.rfind("r") # finds the LAST occurance of the given value and returns the INDEX. If no value found, returns -1 instead
 
+result = name.index(" ") # works the same as .find, except it returns ValueError if it does not find the value.
+
 name = name.capitalize() # capitalizes the first letter in a string, returns a STRING
 name = name.upper() # capitalizes ALL characters in a string, returns a STRING
 
 result = name.isdigit() # returns a boolean, True if the string only contains numerical values
 result = name.isalpha() # returns a boolean, True if the string only contains ALPHABETIC values. Spaces are NOT alphabetical values
+
+
 
 # --------------------------------------------
 
