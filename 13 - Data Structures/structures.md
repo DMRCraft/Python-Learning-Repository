@@ -8,3 +8,20 @@ Another example: location = {
 (10, 20): "Home",
 (100, -20): "Village"
 }
+
+## enumerate()
+
+Use for cases like this:
+
+```python
+foods = ["apple", "carrot", "pizza"]
+
+for iteration_num, food in enumerate(foods, start=1):
+    print(f"{iteration_num}: {food}")
+
+# output: 1: apple  2: carrot  3: pizza
+
+```
+
+- enumerate turns: foods = ["apple", "carrot", "pizza"]
+- into pairs: (0, "apple") (1, "banana") (2, "pizza")
