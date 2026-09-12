@@ -18,6 +18,7 @@ result = name.index(" ") # works the same as .find, except it returns ValueError
 
 name = name.capitalize() # capitalizes the first letter in a string, returns a STRING
 name = name.upper() # capitalizes ALL characters in a string, returns a STRING
+name = name.lower() # turns ALL characters to lowercase in a string, returns a STRING
 
 result = name.isdigit() # returns a boolean, True if the string only contains numerical values
 result = name.isalpha() # returns a boolean, True if the string only contains ALPHABETIC values. Spaces are NOT alphabetical values
