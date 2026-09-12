@@ -1,3 +1,6 @@
+# This project uses:
+# Variables, user input, string methods, string indexing and f strings
+
 # NOTE: if the user's answer does NOT include a "@", the program breaks
 # this is because ".index" is used when we are sure the value in the string 100% exists
 
