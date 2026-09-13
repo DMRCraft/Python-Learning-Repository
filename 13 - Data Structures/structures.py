@@ -9,6 +9,8 @@
 # print(help(collection)) - documentation for the object
 
 
+# TO DO LATER - seperate all collections into different .py files
+
 fruits = ["apple", "orange", "banana", "strawberry"]
 
 print(fruits[0])
