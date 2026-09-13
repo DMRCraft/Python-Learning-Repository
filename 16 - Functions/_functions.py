@@ -6,6 +6,9 @@
 # PARAMETER - the name inside of the function
 # ARGUMENT - the data which the caller passes
 
+# Types of arguments:
+# 1. positional | 2. default | 3. keyword | 4. arbitrary
+
 def happy_birthday():
     print("Happy birthday to you,")
     print("Happy birthday to you!")
