@@ -25,3 +25,11 @@ bool(0)        # False
 bool(1)        # True
 bool(-10)      # True
 
+
+# --------------------
+# You can typecast to collections
+
+chars = "123456789"
+chars = list(chars)
+print(chars)
+
