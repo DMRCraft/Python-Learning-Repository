@@ -1,5 +1,4 @@
-# Function - holds a piece of code that runs a specific task, which can be reused
-#            they can take in arguments (pieces of data) and return a value to the caller
+# Function - reusable block of code that performs a particular task and can take inputs and return a result.
 
 # Return - statement used to end a function, and (optionally) send back a result value
 
