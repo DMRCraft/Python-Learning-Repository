@@ -65,11 +65,11 @@ A mutable collection of key-value pairs where each key is unique.
 **Common methods:**
 
 ```python
-dict.get(key)        # Get value; returns None if key is absent
+dict.get(key)        # Get value; returns None if key is absent. NOTE: None is NOT A STRING, it is a value
 dict.keys()          # Return keys
 dict.values()        # Return values
-dict.items()         # Return key-value pairs
-dict.update(other)   # Add/update key-value pairs
+dict.items()         # Return key-value pairs as [(), (), ..]
+dict.update(key, value)   # Add/update key-value pairs
 dict.pop(key)        # Remove and return value
 dict.popitem()       # Remove and return last key-value pair
 dict.clear()         # Remove all items
