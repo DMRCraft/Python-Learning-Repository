@@ -41,6 +41,8 @@ set.union(other)     # Combine sets
 set.intersection(other) # Common items
 set.difference(other)   # Items only in this set
 set.symmetric_difference(other) # Items in either, but not both
+
+# IMPORTANT NOTE: {} is NOT an empty set, it is an empty dictionary
 ```
 
 ---
