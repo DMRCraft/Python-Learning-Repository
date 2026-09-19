@@ -40,6 +40,7 @@ y = 4
 z = 5
 
 # result = round(x)
+# result = round(x, 2)
 # result = abs(y)
 # result = pow(y, z)
 # result = max(x, y, z)
