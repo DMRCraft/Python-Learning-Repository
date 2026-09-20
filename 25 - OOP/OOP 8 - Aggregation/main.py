@@ -2,6 +2,8 @@
 #             contains references to one or more INDEPENDENT objects (the parts)
 #             think of it as a "has-a" relationship
 
+# "I have/group you, but you can exist without me"
+
 class Library:
     def __init__(self, name):
         self.name = name
