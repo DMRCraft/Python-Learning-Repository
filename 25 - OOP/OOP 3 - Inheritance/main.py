@@ -28,9 +28,11 @@ class Mouse(Animal):
         print("SQUEEK")
 
 dog = Dog("Lucky")
-cat = Cat("Sir Meows a lot")
+cat = Cat("Sir Meows alot")
 mouse = Mouse("Jerry")
 
 print(dog.name)
 print(cat.is_alive)
 mouse.eat()
+
+Animal.sleep()
