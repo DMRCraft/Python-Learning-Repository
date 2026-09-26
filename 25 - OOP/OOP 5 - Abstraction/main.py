@@ -1,5 +1,5 @@
 # Abstraction is an OOP principle that hides unnecessary implementation details and only exposes the essential functionality
-# Abstract class -> a class that cannot be instantiated on its own / meant to be subclasses
+# Abstract class -> a class that cannot be instantiated on its own / meant to be subclassed
 
 #       They can contain abstract methods, which are declared but have no implementation
 
