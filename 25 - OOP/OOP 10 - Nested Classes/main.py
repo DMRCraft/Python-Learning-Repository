@@ -1,9 +1,9 @@
-# Nested Class -> a class defned within another class
+# Nested Class -> a class defined within another class
 #                 class Outer:
-#                    class Innter:
+#                    class Inner:
 
 # Benefits -> Allows you to logically group classes that are closely related
-#             Encapulates private details that aren't relevant outside of your outer class
+#             Encapsulates private details that aren't relevant outside of your outer class
 #             Keeps the namespace clear; reduces the possibility of naming conflicts
 
 
