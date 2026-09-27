@@ -10,9 +10,11 @@ class Library:
         self.books = []
 
     def add_book(self, book):
+        print(f"Adding a book! ({book.title})")
         self.books.append(book)
 
     def list_books(self):
+        # List comprehension
         return [f"{book.title} by {book.author}" for book in self.books]
 
 
@@ -32,7 +34,7 @@ library.add_book(book1)
 library.add_book(book2)
 library.add_book(book3)
 
-print(library.name)
+print(f"Library: {library.name}")
 
 for num, book in enumerate(library.list_books(), start=1):
     print(f"{num}. {book}")
