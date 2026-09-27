@@ -2,7 +2,7 @@
 # Polymorphism is a greek word (poly = many, morphe = form)
 
 # Two wats to achieve polymorphism:
-#   1. Inheritance -> an obkect can be treated of the same type as a parent class
+#   1. Inheritance -> an object can be treated of the same type as a parent class
 #   2. "Duck typing" -> object must have necessary attributes/methods
 
 # Python doesn't care about what class the object is. It only cares about what methods it has
